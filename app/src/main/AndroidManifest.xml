@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.controlalmacen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ControlAlmacen"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PersoMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_perso_main"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".AdMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ad_main"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarCategoriaActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarTipoActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarUsuarioActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarProductActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarEntradaAdminActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarEntradaActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarSalidaActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".EditarSalidaAdminActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".AddCategoriaActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".AddProductoActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".AddTipoActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+
+        <activity
+            android:name=".AddUsuarioActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+
+        <activity
+            android:name=".AdminMainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".ListaProductoActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".ListaCategoriaActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".ListaTipoActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".ListaProductoAdminActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+        <activity
+            android:name=".ListaTipoAdminActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar" />
+
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AddSalidaActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AddEntradaActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AddSalidaAdminActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AddEntradaAdminActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar"
+            tools:ignore="Instantiatable" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ControlAlmacen.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

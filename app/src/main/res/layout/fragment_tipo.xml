@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/emptyCartImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/emptyCartText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/emptyCartImg"
+            android:text="No hay productos"
+            android:textSize="19sp"
+            android:textColor="@color/gray"/>
+
+        <TextView
+            android:id="@+id/addItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Agregue item para crear un pedido"
+            android:layout_below="@+id/emptyCartText"
+            android:layout_marginTop="7dp"
+            android:textSize="15sp"
+            android:textColor="@color/gray"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favoriteResRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:padding="3dp"/>
+
+
+    </RelativeLayout>
+</FrameLayout>

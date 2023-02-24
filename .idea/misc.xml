@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/drawable/ic_add_circle_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/activity_ad_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/activity_add_entrada.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/activity_editar_entrada.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/app_bar_ad_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/app_bar_perso_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/content_ad_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/content_ad_main2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/content_add_usuario.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/content_editar_usuario.xml" value="0.33" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/content_perso_main.xml" value="0.22" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/fragment_tipo.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/fragment_usuario.xml" value="0.1995831162063575" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/nav_header_ad_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/layout/nav_header_perso_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/menu/activity_main_drawer.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/ASUS/Videos/ControlAlmacen/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

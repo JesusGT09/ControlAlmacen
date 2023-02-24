@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="Resumen" />
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/ic_baseline_widgets_24"
+            android:title="Categoria" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_discount_24"
+            android:title="Productos" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_format_indent_decrease_24"
+            android:title="Salidas" />
+        <item
+            android:id="@+id/nav_entrada"
+            android:icon="@drawable/ic_baseline_format_indent_increase_24"
+            android:title="Entradas" />
+        <item
+            android:id="@+id/nav_tipo"
+            android:icon="@drawable/ic_baseline_control_camera_24"
+            android:title="Tipo" />
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+            android:title="Usuario" />
+      <!--  <item android:title="Control">
+            <menu>
+                <item
+                    android:id="@+id/nav_s"
+                    android:icon="@drawable/ic_baseline_power_settings_new_24"
+                    android:title="Cerrar Sesion" />
+            </menu>
+        </item>-->
+    </group>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.controlalmacen.ui.homeAdmin.HomeAdminFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_admin" />
+
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.example.controlalmacen.ui.categoria.CategoriaFragment"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categoria" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.controlalmacen.ui.productoAdmin.ProductoAdminFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.controlalmacen.ui.salidaAdmin.SalidaAdminFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_entrada"
+        android:name="com.example.controlalmacen.ui.entradaAdmin.EntradaAdminFragment"
+        android:label="@string/menu_entrada"
+        tools:layout="@layout/fragment_entrada" />
+
+    <fragment
+        android:id="@+id/nav_tipo"
+        android:name="com.example.controlalmacen.ui.tipo.TipoFragment"
+        android:label="@string/menu_tipo"
+        tools:layout="@layout/fragment_tipo" />
+
+    <fragment
+        android:id="@+id/nav_usuario"
+        android:name="com.example.controlalmacen.ui.usuario.UsuarioFragment"
+        android:label="Usuario"
+        tools:layout="@layout/fragment_usuario" />
+
+</navigation>

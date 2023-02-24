@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:focusableInTouchMode="true">
+
+
+                <ImageView
+                    android:id="@+id/foto"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:focusable="true"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/producto"
+                    />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapper_producto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrapper_producto"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColorHint="#3a3a3a">
+
+                    <EditText
+                        android:id="@+id/producto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Producto"
+                        android:inputType="text"
+                        android:textColor="#3a3a3a"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapper_descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrapper_producto"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColorHint="#3a3a3a">
+
+                        <EditText
+                          android:id="@+id/descripcion"
+                          android:inputType="textMultiLine"
+                          android:lines="8"
+                          android:minLines="6"
+                          android:gravity="top|start"
+                          android:maxLines="10"
+                          android:layout_height="wrap_content"
+                          android:layout_width="match_parent"
+                          android:scrollbars="vertical"
+                      />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapper_precio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrapper_producto"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColorHint="#3a3a3a">
+
+                    <EditText
+                        android:id="@+id/precio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Precio"
+                        android:inputType="number"
+                        android:textColor="#3a3a3a"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapper_stock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrapper_producto"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColorHint="#3a3a3a">
+
+                    <EditText
+                        android:id="@+id/stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Stock"
+                        android:inputType="number"
+                        android:textColor="#3a3a3a"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapper_idcategoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColorHint="#3a3a3a">
+
+                    <EditText
+                        android:id="@+id/idCategoria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=""
+                        android:inputType="text"
+                        android:textColor="#3a3a3a"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/wrapper_tipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wrapper_cantidad"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:textColorHint="#3a3a3a">
+
+                    <ImageView
+                        android:id="@+id/btn_categoria"
+                        android:layout_width="50dp"
+                        android:layout_height="55dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_marginTop="-55dp"
+                        android:src="@drawable/ic_baseline_search_24"
+                        />
+
+                    <EditText
+                        android:id="@+id/categoria"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="50dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Categoria"
+                        android:editable="false"
+                        android:inputType="none"
+                        android:textColor="#3a3a3a"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/password_layout"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="39dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:background="@color/colorPrimary"
+                    android:text="Guardar"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
