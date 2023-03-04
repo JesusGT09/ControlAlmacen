@@ -1,8 +1,6 @@
 package com.example.controlalmacen.model
 
-/**
- * Created by ravi on 20/02/18.
- */
+
 class Usuario {
     var id = 0
     var identificacion: String? = null

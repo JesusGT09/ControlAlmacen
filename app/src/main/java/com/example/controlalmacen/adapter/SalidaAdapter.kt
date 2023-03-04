@@ -20,9 +20,7 @@ import android.widget.ImageView
 import java.util.*
 import com.example.controlalmacen.GlobalInfo
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class SalidaAdapter(private val context: Context, private var notesList: List<Salida>) :
     RecyclerView.Adapter<SalidaAdapter.MyViewHolder>() {
     private val movieListFiltered: List<Salida>

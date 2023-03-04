@@ -21,9 +21,7 @@ import java.util.*
 import com.example.controlalmacen.GlobalInfo
 
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class SalidaAdminAdapter(private val context: Context, private var notesList: List<Salida>) :
     RecyclerView.Adapter<SalidaAdminAdapter.MyViewHolder>(){
     private val movieListFiltered: List<Salida>

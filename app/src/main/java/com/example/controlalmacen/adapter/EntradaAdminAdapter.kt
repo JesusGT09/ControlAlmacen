@@ -20,9 +20,6 @@ import android.widget.ImageView
 import java.util.*
 import com.example.controlalmacen.GlobalInfo
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
 
 class EntradaAdminAdapter(private val context: Context, private var notesList: List<Entrada>) :
     RecyclerView.Adapter<EntradaAdminAdapter.MyViewHolder>(), Filterable {

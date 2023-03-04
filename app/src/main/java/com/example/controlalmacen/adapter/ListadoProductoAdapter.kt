@@ -21,9 +21,7 @@ import android.widget.ImageView
 import java.util.*
 import com.example.controlalmacen.GlobalInfo
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class ListadoProductoAdapter(
 
     private val context: Context,

@@ -56,7 +56,7 @@ class LoginActivity : AppCompatActivity() {
             Method.POST,
             Baseurl+"login.php", Response.Listener { response ->
                 hideDialog()
-                //	Toast.makeText(LoginActivity.this, ""+response, Toast.LENGTH_LONG).show();
+                	//Toast.makeText(this, ""+response, Toast.LENGTH_LONG).show();
                 try {
                     val respObj = JSONArray(response)
                     for (i in 0 until respObj.length()) {

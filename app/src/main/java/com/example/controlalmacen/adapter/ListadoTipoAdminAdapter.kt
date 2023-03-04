@@ -18,9 +18,7 @@ import android.widget.Filter.FilterResults
 import android.widget.Filterable
 import java.util.*
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class ListadoTipoAdminAdapter(
     private val context: Context,
     private var notesList: List<Tipo>,

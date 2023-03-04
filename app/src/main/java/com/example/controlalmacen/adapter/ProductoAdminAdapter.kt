@@ -21,9 +21,7 @@ import java.util.*
 import com.example.controlalmacen.GlobalInfo
 
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class ProductoAdminAdapter(private val context: Context, private var notesList: List<Producto>) :
     RecyclerView.Adapter<ProductoAdminAdapter.MyViewHolder>() {
     private val movieListFiltered: List<Producto>

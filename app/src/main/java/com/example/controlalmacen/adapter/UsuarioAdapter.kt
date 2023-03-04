@@ -16,9 +16,7 @@ import com.example.controlalmacen.EditarUsuarioActivity
 import com.example.controlalmacen.model.Usuario
 import java.util.*
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class UsuarioAdapter(private val context: Context, private var notesList: List<Usuario>) :
     RecyclerView.Adapter<UsuarioAdapter.MyViewHolder>() {
     private val movieListFiltered: List<Usuario>

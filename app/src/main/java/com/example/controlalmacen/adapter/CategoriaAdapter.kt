@@ -17,9 +17,7 @@ import android.widget.Filterable
 import java.util.*
 import com.example.controlalmacen.GlobalInfo
 
-/**
- * Created by Ravi Tamada on 18/05/16.
- */
+
 class CategoriaAdapter(private val context: Context, private var notesList: List<Categoria>) :
     RecyclerView.Adapter<CategoriaAdapter.MyViewHolder>(), Filterable {
     private val movieListFiltered: List<Categoria>
